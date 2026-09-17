@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Copse", Georgia, serif;
+  --font-body: "Open Sans", system-ui, -apple-system, sans-serif;
+  --color-amplify-orange: #f37321;
+  --color-amplify-orange-hover: #e06313;
+  --color-amplify-orange-light: #fff5ee;
+  --color-amplify-orange-tint: #fcd5bc;
+  --color-amplify-blue: #13b5ea;
+  --color-amplify-navy: #2462a7;
+  --color-amplify-green: #8dc63f;
+  --color-amplify-teal: #009f93;
+  --color-amplify-purple: #9b5ba5;
+  --color-amplify-gray-50: #f8f9fa;
+  --color-amplify-gray-100: #f1f2f2;
+  --color-amplify-gray-200: #e6e7e8;
+  --color-amplify-gray-300: #b1b3b6;
+  --color-amplify-gray-500: #77787b;
+  --color-amplify-gray-700: #4d4d4f;
+  --color-amplify-gray-900: #1a1a1a;
+}
+
+body {
+  font-family: var(--font-body);
+  color: #1a1a1a;
+  background-color: #f8f9fa;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-copse {
+  font-family: var(--font-display);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Amplify People Portal",
+  "description": "Task-centered employee intranet for Amplify team members, organized around daily actions, benefits, career growth, and clear support routing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
